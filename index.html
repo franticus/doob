@@ -5,9 +5,166 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+          integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
     <title>Doob</title>
 </head>
 <body>
-    <h1>Doob</h1>
+
+
+<nav class="nav-body">
+    <div class="logo">
+        <img src="./assets/img/Logo.png" alt="doob">
+    </div>
+    <div class="nav-container">
+        <div class="nav-left">
+            <div class="menu-container">
+                <ul class="menu">
+                    <li class="menu-item"><a href="#">Home.</a></li>
+                    <li class="menu-item"><a href="#">About us.</a></li>
+                    <li class="menu-item"><a href="#">Portfolio.</a></li>
+                    <li class="menu-item"><a href="#">Blog.</a></li>
+                    <li class="menu-item"><a href="#">Contact us.</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="nav-right">
+            <div class="lang-btn">
+                <select>
+                    <option value="1">
+                        <a href="#">EN</a>
+                    </option>
+                    <option value="1">
+                        <a href="#">RU</a>
+                    </option>
+                </select>
+            </div>
+            <div class="contact-btn">
+                <a href="#">Contact Us ⟶</a>
+            </div>
+        </div>
+        <div class="navbar-burger">
+            <span></span>
+        </div>
+    </div>
+</nav>
+
+<section class="slider">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="title-container">
+                    <div class="slider-title">
+                        <p>The Spirit of <br> Digital Agency.</p>
+                    </div>
+                    <div class="slider-description">
+                        <p>Vestibulum ac diam sit amet quam vehicula elementum amet est on dui. Nulla porttitor accumsan
+                            tincidunt.
+                        </p>
+                    </div>
+                    <div class="title-btn">
+                        <button type="button" class="more">More About us</button>
+                        <button type="button" class="get">Get in Touch</button>
+                    </div>
+                </div>
+                <div class="image-container">
+                    <img src="./assets/img/Illustration.png" alt="image">
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="title-container">
+                    <div class="slider-title">
+                        <p>The Spirit of <br> Digital Agency.</p>
+                    </div>
+                    <div class="slider-description">
+                        <p>Vestibulum ac diam sit amet quam vehicula elementum amet est on dui. Nulla porttitor accumsan
+                            tincidunt.
+                        </p>
+                    </div>
+                    <div class="title-btn">
+                        <button type="button" class="more">More About us</button>
+                        <button type="button" class="get">Get in Touch</button>
+                    </div>
+                </div>
+                <div class="image-container">
+                    <img src="./assets/img/Illustration.png" alt="image">
+                </div>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+</section>
+
+<section class="container">
+    <div class="gallery">
+        <div class="gallery-title">See some of our <br> Creative work</div>
+        <div class="gallery-items">
+            <div class="gallery-item"></div>
+            <div class="gallery-item"></div>
+            <div class="gallery-item"></div>
+            <div class="gallery-item"></div>
+            <div class="gallery-item"></div>
+            <div class="gallery-item"></div>
+        </div>
+        <div class="gallery-btn">
+            <a href="#">See More of These.</a>
+        </div>
+    </div>
+</section>
+
+<section class="contact">
+    <div class="container">
+        <div class="contact-title-container">
+            <p class="contact-title">CONTACT US</p>
+            <p class="contact-description">Get in Touch</p>
+        </div>
+        <form class="form-container">
+            <div class="email-subject">
+                <label>
+                    <input type="text" placeholder="Your email" name="name">
+                </label>
+                <label>
+                    <input type="text" placeholder="Subject" name="subject">
+                </label>
+            </div>
+            <div>
+                <label>
+                    <textarea name="mess" placeholder="Message here..." id="" cols="60" rows="5"></textarea>
+                </label>
+            </div>
+            <button type="button" class="send">Send Message</button>
+    </div>
+</section>
+
+<footer class="footer">
+    <h5 class="footer-doob">DOOB</h5>
+    <p class="footer-title">CREATIVITY ABOVE</p>
+    <ul class="footer-menu">
+        <li class="footer-menu-item"><a href="#">Home.</a></li>
+        <li class="footer-menu-item"><a href="#">About us.</a></li>
+        <li class="footer-menu-item"><a href="#">Portfolio.</a></li>
+        <li class="footer-menu-item"><a href="#">Blog.</a></li>
+        <li class="footer-menu-item"><a href="#">Contact us.</a></li>
+    </ul>
+    <p class="footer-copyright">© 2019 - Doob, All Right Reserved</p>
+    <div class="footer-icons">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-dribbble"></i>
+    </div>
+</footer>
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
